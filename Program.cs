@@ -22,13 +22,13 @@ namespace deliverable2
             if (partySize <= 8)
             {
                 Console.Clear();
-                Console.WriteLine($"\nAh, {partySize} guests. Excellent! Please follow me. \n");
-                Console.WriteLine("Alright, this table with the amazing view of Waikiki is yours. \n");
+                Console.Write($"\nAh, {partySize} guests. Excellent! Please follow me. ");
+                Console.WriteLine("Alright, this table with the amazing view of Waikiki is yours.");
                 Console.WriteLine("Could I get a drink order from everyone before you head to the buffet?");
                 Console.WriteLine($"Just a reminder, smoothies are ${smoothiePrice} and mimosas are ${mimosaPrice}.\n");
 
                 for (int i = 1; i <= partySize; i++) {
-                    Console.WriteLine($"Alright, what would you like guest number {i}? Smoothie or mimosa?");
+                    Console.WriteLine($"What would you like guest number {i}? Smoothie or mimosa?");
                     string? drinkOrder = Console.ReadLine();
                     if (drinkOrder == "smoothie" || drinkOrder == "Smoothie" || drinkOrder == "mimosa" || drinkOrder == "Mimosa")
                     {
@@ -52,9 +52,10 @@ namespace deliverable2
                 decimal smoothieTotal = smoothiePrice * smoothieCount;
                 decimal mimosaTotal = mimosaPrice * mimosaCount;
                 decimal totalBill = buffetTotal + smoothieTotal + mimosaTotal;
-
+		
+		Console.Clear();
                 Console.WriteLine($"Alright, {smoothieCount} smoothies and {mimosaCount} mimosas coming up! \n");
-                Console.WriteLine("Here you go, and no rush at all, but here's the bill for when you're ready. \n");
+                Console.WriteLine("And no rush at all, but here's the bill for when you're ready. \n");
 
                 Console.WriteLine($"{smoothieCount} smoothie x ${smoothiePrice} = ${smoothieTotal}");
                 Console.WriteLine($"{mimosaCount} mimosa x ${mimosaPrice} = ${mimosaTotal}");
