@@ -29,7 +29,7 @@ namespace deliverable2
 
                 for (int i = 1; i <= partySize; i++) {
                     Console.WriteLine($"Alright, what would you like guest number {i}? Smoothie or mimosa?");
-                    string drinkOrder = Console.ReadLine();
+                    string? drinkOrder = Console.ReadLine();
                     if (drinkOrder == "smoothie" || drinkOrder == "mimosa")
                     {
                         Console.Clear();
