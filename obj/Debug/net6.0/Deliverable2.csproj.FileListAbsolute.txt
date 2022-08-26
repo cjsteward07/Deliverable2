@@ -1,0 +1,15 @@
+/Users/csteward/Projects/Deliverable2/bin/Debug/net6.0/Deliverable2
+/Users/csteward/Projects/Deliverable2/bin/Debug/net6.0/Deliverable2.deps.json
+/Users/csteward/Projects/Deliverable2/bin/Debug/net6.0/Deliverable2.runtimeconfig.json
+/Users/csteward/Projects/Deliverable2/bin/Debug/net6.0/Deliverable2.dll
+/Users/csteward/Projects/Deliverable2/bin/Debug/net6.0/Deliverable2.pdb
+/Users/csteward/Projects/Deliverable2/obj/Debug/net6.0/Deliverable2.csproj.AssemblyReference.cache
+/Users/csteward/Projects/Deliverable2/obj/Debug/net6.0/Deliverable2.GeneratedMSBuildEditorConfig.editorconfig
+/Users/csteward/Projects/Deliverable2/obj/Debug/net6.0/Deliverable2.AssemblyInfoInputs.cache
+/Users/csteward/Projects/Deliverable2/obj/Debug/net6.0/Deliverable2.AssemblyInfo.cs
+/Users/csteward/Projects/Deliverable2/obj/Debug/net6.0/Deliverable2.csproj.CoreCompileInputs.cache
+/Users/csteward/Projects/Deliverable2/obj/Debug/net6.0/Deliverable2.dll
+/Users/csteward/Projects/Deliverable2/obj/Debug/net6.0/refint/Deliverable2.dll
+/Users/csteward/Projects/Deliverable2/obj/Debug/net6.0/Deliverable2.pdb
+/Users/csteward/Projects/Deliverable2/obj/Debug/net6.0/Deliverable2.genruntimeconfig.cache
+/Users/csteward/Projects/Deliverable2/obj/Debug/net6.0/ref/Deliverable2.dll
