@@ -30,11 +30,11 @@ namespace deliverable2
                 for (int i = 1; i <= partySize; i++) {
                     Console.WriteLine($"Alright, what would you like guest number {i}? Smoothie or mimosa?");
                     string? drinkOrder = Console.ReadLine();
-                    if (drinkOrder == "smoothie" || drinkOrder == "mimosa")
+                    if (drinkOrder == "smoothie" || drinkOrder == "Smoothie" || drinkOrder == "mimosa" || drinkOrder == "Mimosa")
                     {
                         Console.Clear();
                         Console.WriteLine($"Excellent, one {drinkOrder} coming up! \n");
-                        if (drinkOrder == "smoothie")
+                        if (drinkOrder == "smoothie" || drinkOrder == "Smoothie")
                         {
                             smoothieCount ++;
                         }
@@ -60,7 +60,7 @@ namespace deliverable2
                 Console.WriteLine($"{mimosaCount} mimosa x ${mimosaPrice} = ${mimosaTotal}");
                 Console.WriteLine($"{partySize} buffet x ${buffetPrice} = ${buffetTotal}");
                 Console.WriteLine($"Total = ${totalBill}\n");
-                Console.WriteLine(" Thank you. See you again!");
+                Console.WriteLine("Thank you. See you again!");
             }
             else
             {
