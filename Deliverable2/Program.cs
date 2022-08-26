@@ -16,10 +16,10 @@ namespace deliverable2
             Console.WriteLine("Aloha. Welcome to the Hawaiian buffet.");
             Console.WriteLine("Our buffet is currently on special, only $9.99 for all you can eat!");
             Console.WriteLine("If you'd like to add a drink, we're currently serving smoothies for $3.00 and mimosas for $4.00.");
-            Console.WriteLine("How many people are in your party? Please keep in mind that the largest table currently available seats 8.");
+            Console.WriteLine("How many people are in your party? Please keep in mind that the largest table currently available seats 6.");
 
             int partySize = int.Parse(Console.ReadLine());
-            if (partySize <= 8)
+            if (partySize <= 6)
             {
                 Console.Clear();
                 Console.Write($"\nAh, {partySize} guests. Excellent! Please follow me. ");
