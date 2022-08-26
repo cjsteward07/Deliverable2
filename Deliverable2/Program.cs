@@ -46,7 +46,8 @@ namespace deliverable2
                     }
                     else
                     {
-                        Console.WriteLine($"Sorry guest number {i}, we don't serve {drinkOrder}. We're only serving smoothies and mimosas.");
+                        Console.Clear();
+                        Console.WriteLine($"Sorry guest number {i}, we don't serve {drinkOrder}. We're only serving smoothies and mimosas.\n");
                     }
                 }
                 decimal buffetTotal = buffetPrice * partySize;
@@ -66,6 +67,7 @@ namespace deliverable2
             }
             else
             {
+                Console.Clear();
                 Console.WriteLine($"Sorry, we don't have the capacity for {partySize} right now.");
             }
         }
