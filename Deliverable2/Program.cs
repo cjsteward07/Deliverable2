@@ -13,7 +13,7 @@ namespace deliverable2
             int smoothieCount = 0;
             int mimosaCount = 0;
 
-            Console.WriteLine("Aloha. Welcome to the hawaiian buffet.");
+            Console.WriteLine("Aloha. Welcome to the Hawaiian buffet.");
             Console.WriteLine("Our buffet is currently on special, only $9.99 for all you can eat!");
             Console.WriteLine("If you'd like to add a drink, we're currently serving smoothies for $3.00 and mimosas for $4.00.");
             Console.WriteLine("How many people are in your party? Please keep in mind that the largest table currently available seats 8.");
